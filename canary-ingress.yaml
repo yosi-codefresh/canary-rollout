@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/app-root: /
 spec:
   rules:
-  - host: yosi.infra-team.cf-cd.com
+  - host: canary.dev.argoproj.io
     http:
       paths:
       - path: /
