@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
         - name: canary-demo
-#           image: idanarbel/rollouts-demo:purple
-#           image: idanarbel/rollouts-demo:green
-          image: yosizanko/rollouts-demo:red
+          #           image: idanarbel/rollouts-demo:purple
+          #           image: idanarbel/rollouts-demo:green
+          image: yosicodefresh/rollouts-demo:blue
           imagePullPolicy: Always
           ports:
             - name: http
